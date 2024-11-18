@@ -9,17 +9,17 @@
 <body>
     <header class="headerfooter">
       <h1>Welcome to ABC Hospital</h1>
-      <a id="links"  href="index.html">Home</a> &nbsp;&nbsp;
-      <a id="links"  href="about.html">About</a> &nbsp;&nbsp;
-      <a id="links" href="contact.html">Contact</a> &nbsp;&nbsp;
-      <a id="links" href="gallery.html">Gallery</a> &nbsp;&nbsp;
-      <a id="links" href="registrations.html">Registration</a> &nbsp;&nbsp;
-      <a id="links" href="#">Login</a> &nbsp;&nbsp;
+      <a  href="index.html">Home</a> &nbsp;&nbsp;
+      <a  href="about.html">About</a> &nbsp;&nbsp;
+      <a  href="contact.html">Contact</a> &nbsp;&nbsp;
+      <a  href="gallery.html">Gallery</a> &nbsp;&nbsp;
+      <a  href="registrations.html">Registration</a> &nbsp;&nbsp;
+      <a  href="#">Login</a> &nbsp;&nbsp;
     </header>
        <br>
-       <h2 id="h2">Patient Registration</h2>
+       <h2 id="h2">Patient Login</h2>
        <form action="https://c.ABCHospitals.org" method="post">
-         <table >
+         <table align="center" cellpadding="10px">
            <tr>
              <td>
                <label for="mail">Email:</label>
@@ -27,23 +27,25 @@
            </tr>
            <tr>
              <td>
-               <input type="email" name="mail" id="mail" required placeholder="Enter your Email">
+               <input class="inputwidth"  type="email" name="mail" id="mail" required placeholder="Enter your Email" size="60">
            </td>
            </tr>
            <tr>
              <td>
-               <label for="pd">Password</label>
+               <label for="pd">Password:</label>
              </td>
              </tr>
              <tr>
              <td>
-               <input type="password" name="pd" id="pd" required >
+               <input class="inputwidth"  type="password" name="pd" id="pd" required >
             </td>
+            </tr> 
+         <tr>
+         <td>
+               <input   class="login" type="submit" value="Login" >
+              </td>
             </tr>
-         </table>
-               <div  class="headerfooter">
-               <button class="headerfooter" type="submit">Login</button>
-               </div>
+            </table>
      </form>
 
 

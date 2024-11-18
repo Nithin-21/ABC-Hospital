@@ -9,17 +9,17 @@
 <body>
     <header class="headerfooter">
       <h1>Welcome to ABC Hospital</h1>
-      <a id="links"  href="index.html">Home</a> &nbsp;&nbsp;
-      <a id="links"  href="about.html">About</a> &nbsp;&nbsp;
-      <a id="links" href="contact.html">Contact</a> &nbsp;&nbsp;
-      <a id="links" href="gallery.html">Gallery</a> &nbsp;&nbsp;
-      <a id="links" href="#">Registration</a> &nbsp;&nbsp;
-      <a id="links" href="login.html">Login</a> &nbsp;&nbsp;
+      <a  href="index.html">Home</a> &nbsp;&nbsp;
+      <a  href="about.html">About</a> &nbsp;&nbsp;
+      <a  href="contact.html">Contact</a> &nbsp;&nbsp;
+      <a  href="gallery.html">Gallery</a> &nbsp;&nbsp;
+      <a  href="#">Registration</a> &nbsp;&nbsp;
+      <a  href="login.html">Login</a> &nbsp;&nbsp;
     </header>
        <br>
-        <h2 id="h2">Patient Registration</h2>
+        <h2 id="h2" >Patient Registration</h2>
         <form action="https://c.ABCHospitals.org" method="post">
-          <table  >
+          <table  align="center" cellpadding="10px">
             <tr >
               <td >
                 <label for="name">Name: </label>
@@ -28,7 +28,7 @@
             <tr >
               <td>
       
-                <input type="text" name="name" id="name">
+                <input class="inputwidth"  type="text" name="name" id="name"  >
               </td>
             </tr>
             <tr>
@@ -38,7 +38,7 @@
             </tr>
             <tr>
              <td>
-              <input type="date" name="dob" id="dob">
+              <input class="inputwidth"    type="date" name="dob" id="dob" >
              </td>
             </tr>
             <tr>
@@ -48,7 +48,7 @@
             </tr>
             <tr>
               <td>
-                <input type="email" name="mail" id="mail">
+                <input class="inputwidth" type="email" name="mail" id="mail" >
             </td>
             </tr>
             <tr>
@@ -58,13 +58,15 @@
               </tr>
               <tr>
               <td>
-                <input type="number" name="number" id="number">
+                <input class="inputwidth" type="number" name="number" id="number" size="60">
              </td>
-             </tr>
-          </table>
-                <div  class="headerfooter">
-                <button class="headerfooter" type="submit">Register</button>
-                </div>
+             </tr> 
+              <tr>
+                <td align="center">
+                <input class="button" type="submit" value="Register" >
+             </td>
+              </tr>
+              </table>
       </form>
 
    
